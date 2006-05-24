@@ -1,0 +1,5 @@
+es_source = XMLIdealGeometryESSource
+{
+   FileInPath GeometryConfiguration="Geometry/EcalTestBeam/data/ECALConfig_TB.xml"
+   string rootNodeName = "cms:OCMS"
+}
