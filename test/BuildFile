@@ -15,4 +15,9 @@
  <use name=Geometry/EcalTestBeam>
  <bin file=testEcalTBCrystalMap.cpp></bin>
 </environment>
+
+<environment>
+ <use name=Geometry/EcalTestBeam>
+ <bin file=testEcalTBHodoscopeGeometry.cc></bin>
+</environment>
  
