@@ -1,5 +1,13 @@
 es_source = XMLIdealGeometryESSource
 {
-   FileInPath GeometryConfiguration="Geometry/EcalTestBeam/data/ECALConfig_TB.xml"
+   vstring geomXMLFiles = {
+        "Geometry/CMSCommonData/data/materials.xml",
+        "Geometry/CMSCommonData/data/rotations.xml",
+        "Geometry/EcalTestBeam/data/ecal_TB.xml",
+        "Geometry/CMSCommonData/data/cms.xml",
+        "Geometry/EcalSimData/data/ecalsens_MTCC.xml",
+        "Geometry/HcalSimData/data/CaloUtil.xml",
+        "Geometry/EcalSimData/data/EcalProdCuts.xml"
+   }
    string rootNodeName = "cms:OCMS"
 }
