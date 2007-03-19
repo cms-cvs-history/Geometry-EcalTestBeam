@@ -2,13 +2,21 @@
  <use name=Geometry/CaloEventSetup>
  <use name=Geometry/CaloGeometry>
  <use name=Geometry/CaloTopology>
+ <use name=Geometry/EcalTestBeam>
  <use name=DataFormats/HcalDetId>
  <use name=DataFormats/EcalDetId>
+ <use name=SimDataFormats/EcalTestBeam>
  <use name=FWCore/Framework>
  <use name=FWCore/MessageLogger>
- <flags SEAL_PLUGIN_NAME="CrystalCenterDumpESProducer">
+
  <library file=CrystalCenterDump.cc name=CrystalCenterDumpESProducer>
+ <flags SEAL_PLUGIN_NAME="CrystalCenterDumpESProducer">
  </library>
+
+ <library file=EcalTBHodoscopeGeometryAnalyzer.cc name=EcalTBHodoscopeGeometryAnalyzer>
+ <flags SEAL_PLUGIN_NAME="EcalTBHodoscopeGeometryAnalyzer">
+ </library>
+
 </environment>
 
 <environment>
