@@ -10,11 +10,11 @@
  <use name=FWCore/MessageLogger>
 
  <library file=CrystalCenterDump.cc name=CrystalCenterDumpESProducer>
- <flags SEAL_PLUGIN_NAME="CrystalCenterDumpESProducer">
+ <flags EDM_PLUGIN=1>
  </library>
 
  <library file=EcalTBHodoscopeGeometryAnalyzer.cc name=EcalTBHodoscopeGeometryAnalyzer>
- <flags SEAL_PLUGIN_NAME="EcalTBHodoscopeGeometryAnalyzer">
+ <flags EDM_PLUGIN=1>
  </library>
 
 </environment>
