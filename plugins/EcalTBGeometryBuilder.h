@@ -13,7 +13,7 @@
 //
 // Original Author:  Jeremiah Mans
 //         Created:  Mon Oct  3 11:35:27 CDT 2005
-// $Id: EcalTBGeometryBuilder.h,v 1.1 2005/12/01 16:29:24 mansj Exp $
+// $Id: EcalTBGeometryBuilder.h,v 1.1 2007/03/19 15:57:10 fabiocos Exp $
 //
 //
 
