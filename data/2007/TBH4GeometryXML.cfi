@@ -8,13 +8,13 @@ es_source = XMLIdealGeometryESSource
 
              "Geometry/EcalTestBeam/data/ebcon.xml",
 
-             "Geometry/EcalTestBeam/data/2007/eecon.xml",
              "Geometry/EcalTestBeam/data/2007/eehier.xml",
              "Geometry/EcalTestBeam/data/2007/eregalgo.xml",
              "Geometry/EcalTestBeam/data/2007/tbrot.xml",
              "Geometry/EcalTestBeam/data/2007/TBH4.xml",
 #             "Geometry/EcalTestBeam/data/2007/TBH4ecalsens.xml",
 
+             "Geometry/EcalCommonData/test/data/eecon.xml",
              "Geometry/EcalCommonData/test/data/eealgo.xml",
 
               "Geometry/HcalSimData/data/CaloUtil.xml",
