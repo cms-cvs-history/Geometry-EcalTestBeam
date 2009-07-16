@@ -3,11 +3,13 @@
  <use name=Geometry/CaloGeometry>
  <use name=Geometry/CaloTopology>
  <use name=Geometry/EcalTestBeam>
+ <use name=Geometry/EcalAlgo>
  <use name=DataFormats/HcalDetId>
  <use name=DataFormats/EcalDetId>
  <use name=SimDataFormats/EcalTestBeam>
  <use name=FWCore/Framework>
  <use name=FWCore/MessageLogger>
+ <use name=CommonTools/UtilAlgos>
 
  <library file=CrystalCenterDump.cc name=CrystalCenterDumpESProducer>
  <flags EDM_PLUGIN=1>
@@ -16,6 +18,18 @@
  <library file=EcalTBHodoscopeGeometryAnalyzer.cc name=EcalTBHodoscopeGeometryAnalyzer>
  <flags EDM_PLUGIN=1>
  </library>
+
+
+<library file=SurveyToTransforms.cc name=testSurveyESProducer>
+<flags EDM_PLUGIN=1>
+</library>
+<library file=EcalEndcapGeometryLoaderFromDDD.cc name=aLoader>
+<flags EDM_PLUGIN=1>
+</library>
+<library file=module.cc name=mymodule>
+<flags EDM_PLUGIN=1>
+</library>
+
 
 </environment>
 
