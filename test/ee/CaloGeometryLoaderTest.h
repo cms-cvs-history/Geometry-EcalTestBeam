@@ -22,7 +22,7 @@
 class DDCompactView;
 
 template < class T >
-class CaloGeometryLoader
+class CaloGeometryLoaderTest
 {
    public:
 
@@ -35,9 +35,9 @@ class CaloGeometryLoader
 
       static const double k_ScaleFromDDDtoGeant ;
 
-      CaloGeometryLoader< T >() ;
+      CaloGeometryLoaderTest< T >() ;
 
-      virtual ~CaloGeometryLoader< T >() {}
+      virtual ~CaloGeometryLoaderTest< T >() {}
  
       PtrType load( const DDCompactView* cpv,
 		    const Alignments*    alignments = 0 ,

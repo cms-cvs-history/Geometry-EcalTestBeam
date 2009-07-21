@@ -136,7 +136,6 @@ void
 SurveyToTransforms::analyze( const edm::Event& iEvent, const edm::EventSetup& iSetup )
 {
    using namespace edm;
-   std::cout<<" $$$$$$$$$$$$$$$$$$$$$ about to extract geometry $$$$$$$$$$$$$"<<std::endl ;
    //
 
    edm::ESHandle<CaloGeometry> pG;

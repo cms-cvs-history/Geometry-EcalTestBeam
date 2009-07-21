@@ -2,10 +2,10 @@
 
 #include "Geometry/EcalAlgo/interface/EcalEndcapGeometry.h"
 
-#include "CaloGeometryLoader.h"
-#include "CaloGeometryLoader.icc"
+#include "Geometry/EcalTestBeam/test/ee/CaloGeometryLoaderTest.h"
+#include "Geometry/EcalTestBeam/test/ee/CaloGeometryLoaderTest.icc"
 
-template class CaloGeometryLoader< EcalEndcapGeometry > ;
+template class CaloGeometryLoaderTest< EcalEndcapGeometry > ;
 
 #include "DetectorDescription/Core/interface/DDFilteredView.h"
 //#include "DetectorDescription/Core/interface/DDInit.h"
@@ -16,7 +16,7 @@ template class CaloGeometryLoader< EcalEndcapGeometry > ;
 
 using namespace std;
 
-typedef CaloGeometryLoader< EcalEndcapGeometry > EcalEGL ;
+typedef CaloGeometryLoaderTest< EcalEndcapGeometry > EcalEGL ;
 
 template <>
 void 
